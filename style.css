@@ -83,14 +83,17 @@ img {
 
 /* media query */
 
+@media screen and (max-width: 768px) {
+    #why .row {
+        background-color: rgb(255, 145, 145);
+    }
+}
+
 @media screen and (max-width: 420px) {
     * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-    }
-    .container {
-        padding: .5rem;
     }
     #lezioni .row>.left,
     #lezioni .row>.right {
@@ -110,6 +113,7 @@ img {
     .row {
         margin: 0;
         width: 100%;
+        padding-top: 1rem;
     }
     #lezioni .row,
     #why .row {
